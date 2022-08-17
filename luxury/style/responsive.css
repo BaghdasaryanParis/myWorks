@@ -1,0 +1,144 @@
+
+.logo{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .parent{
+        display: none;
+    }
+    header{
+        height: 110px;
+        padding: 5px 20px 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin: 0 0 5px 10px;
+        display: flex;
+        width: 95px;
+        height: 93px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bar__icon{
+        display: flex;
+        font-size: 40px;
+        color: #a9bd48;
+    }
+    .items{
+        width: 80%;
+    }
+    .block3__items{
+        width: 40%;
+    }
+    .erek{
+        display: none;
+    }
+    .block4__items{
+        width: 40%;
+        transition: 1s;
+    }
+    .block6__items{
+        width: 40%;
+        transition: 1s;
+    }
+
+    .gallery{
+        
+        flex-direction: column;
+    }
+    .gallery img{
+        width: 90%;
+        margin:10px auto;
+
+    }
+    .gallery img:hover{
+
+        position: relative;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .erku{
+        display: none;
+    }
+    .items{
+        width: 100%;
+    }
+    .block3__items{
+        width: 60%;
+    }
+    .block4__items{
+        width: 60%;
+    }
+    .block6__items{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .footertext{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        height: 750px;
+    }
+    .footertext ul{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1175px) {
+    .block2__images{
+        flex-direction: column;
+        margin: auto;
+    }
+    .ekexeci{
+        margin-bottom: 10px;
+    }
+
+
+}
+@media only screen and (max-width: 700px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about__content{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .about__form{
+        margin: auto;
+    }
+
+
+}
+
+.open{
+    border: none;
+    background-color: transparent;
+    z-index: 3;
+}
+.animatia{
+    height: 100vh;
+    background: white;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 33333;
+    width: 0px;
+    visibility: hidden;
+    transition: 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+

@@ -1,0 +1,121 @@
+@media only screen and (max-width:1000px){
+    .manu{
+        display: none;
+    }
+    .logo .kar{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .logo .cart{
+        display: flex;
+    }
+    .logo button{
+        display: block;
+    }
+
+    .blocks{
+        width: 29%;
+    }
+
+    .page3{
+        flex-direction: column;
+        height: auto;
+    }
+    
+
+    .page3 .gif{
+        width: 90%;
+        margin: auto;
+        height: 550px;
+    }
+
+    .page3-right{
+        width: 95%;
+    }
+
+    .row1, .row2{
+        width: 35%;
+        height: 500px;
+    }
+    .page4 {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 788px){
+.up {
+    display: none;
+}
+.logo{
+    width: 90%;
+}
+
+.blocks{
+    width: 40%;
+}
+.icons {
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.fotos>img{
+    width: 42%;
+}
+footer{
+    width: 80%;
+    flex-wrap: wrap;
+    text-align: left;
+}
+footer ul{
+    width: 50%;
+    margin: auto;
+    
+}
+    footer ul:first-child{
+        font-size: 24px;
+    }
+
+
+    .page3-right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row1, .row2{
+        width: 70%;
+        height: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .blocks{
+        width: 70%;
+    }
+
+    
+}
+@media only screen and (max-width: 600px){
+    .icons {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    footer ul{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        
+    }
+    .fotos>img{
+        width: 80%;
+    }
+}
+
+
+
+
+
+/*               javascript            */
